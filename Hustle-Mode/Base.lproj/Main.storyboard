@@ -60,6 +60,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="cloudHolder" destination="o4R-FX-YMs" id="92S-rp-9JH"/>
+                        <outlet property="darkBlueBG" destination="vOZ-4t-nnG" id="pOV-rd-mql"/>
+                        <outlet property="powerBtn" destination="6Yd-yN-he1" id="tp4-uD-tDU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
