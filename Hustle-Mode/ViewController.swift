@@ -44,7 +44,8 @@ class ViewController: UIViewController {
             self.rocket.frame = CGRect(x: 0, y: 20, width: 375, height: 151)
             
         }) { (finished) in
-            
+            self.hustleLBL.isHidden = false
+            self.onLBL.isHidden = false 
             
         }
     }
