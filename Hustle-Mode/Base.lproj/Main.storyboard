@@ -63,7 +63,10 @@
                     <connections>
                         <outlet property="cloudHolder" destination="o4R-FX-YMs" id="92S-rp-9JH"/>
                         <outlet property="darkBlueBG" destination="vOZ-4t-nnG" id="pOV-rd-mql"/>
+                        <outlet property="hustleLBL" destination="NV7-qO-SLO" id="f3S-b0-iQW"/>
+                        <outlet property="onLBL" destination="9fy-kn-126" id="olS-7m-Nnj"/>
                         <outlet property="powerBtn" destination="6Yd-yN-he1" id="tp4-uD-tDU"/>
+                        <outlet property="rocket" destination="0L5-vK-a7r" id="iS9-wz-JqC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

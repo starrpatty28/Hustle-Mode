@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     @IBOutlet var darkBlueBG: UIImageView!
     @IBOutlet var powerBtn: UIButton!
     @IBOutlet var cloudHolder: UIView!
+    @IBOutlet var rocket: UIImageView!
+    @IBOutlet var hustleLBL: UILabel!
+    @IBOutlet var onLBL: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
