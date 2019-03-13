@@ -37,7 +37,16 @@ class ViewController: UIViewController {
     @IBAction func powerBtnPressed(_ sender: Any) {
         cloudHolder.isHidden = false
         darkBlueBG.isHidden = true
-        powerBtn.isHidden = true    
+        powerBtn.isHidden = true
+        
+        
+        UIView.animate(withDuration: 2.3, animations: {
+            self.rocket.frame = CGRect(x: 0, y: 20, width: 375, height: 151)
+            
+        }) { (finished) in
+            
+            
+        }
     }
     
 
