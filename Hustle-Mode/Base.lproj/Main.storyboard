@@ -26,6 +26,9 @@
                                 <rect key="frame" x="146" y="307" width="82" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="powerButton"/>
+                                <connections>
+                                    <action selector="powerBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1XU-cB-WkK"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o4R-FX-YMs">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
