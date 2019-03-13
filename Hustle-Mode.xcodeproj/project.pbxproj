@@ -12,6 +12,7 @@
 		8DAEA4E12238F58A007246B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAEA4DF2238F58A007246B1 /* Main.storyboard */; };
 		8DAEA4E32238F58B007246B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAEA4E22238F58B007246B1 /* Assets.xcassets */; };
 		8DAEA4E62238F58B007246B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAEA4E42238F58B007246B1 /* LaunchScreen.storyboard */; };
+		8DAEA4EE2238F7A1007246B1 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8DAEA4ED2238F7A1007246B1 /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8DAEA4E22238F58B007246B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DAEA4E52238F58B007246B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DAEA4E72238F58B007246B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DAEA4ED2238F7A1007246B1 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "hustle-on.wav"; path = "hustle-mode-code-assets/assets/Assets/hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		8DAEA4DA2238F58A007246B1 /* Hustle-Mode */ = {
 			isa = PBXGroup;
 			children = (
+				8DAEA4ED2238F7A1007246B1 /* hustle-on.wav */,
 				8DAEA4DB2238F58A007246B1 /* AppDelegate.swift */,
 				8DAEA4DD2238F58A007246B1 /* ViewController.swift */,
 				8DAEA4DF2238F58A007246B1 /* Main.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DAEA4EE2238F7A1007246B1 /* hustle-on.wav in Resources */,
 				8DAEA4E62238F58B007246B1 /* LaunchScreen.storyboard in Resources */,
 				8DAEA4E32238F58B007246B1 /* Assets.xcassets in Resources */,
 				8DAEA4E12238F58A007246B1 /* Main.storyboard in Resources */,
