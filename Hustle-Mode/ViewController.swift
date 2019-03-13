@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     
@@ -17,6 +18,8 @@ class ViewController: UIViewController {
     @IBOutlet var hustleLBL: UILabel!
     @IBOutlet var onLBL: UILabel!
     
+    var player: AVAudioPlayer!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -24,6 +27,9 @@ class ViewController: UIViewController {
     
     
     @IBAction func powerBtnPressed(_ sender: Any) {
+        cloudHolder.isHidden = false
+        darkBlueBG.isHidden = true
+        powerBtn.isHidden = true    
     }
     
 
